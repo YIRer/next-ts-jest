@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders the h1 title 1`] = `
+<div>
+  <Link
+    href="/"
+  >
+    <a
+      style={
+        Object {
+          "marginRight": 15,
+        }
+      }
+    >
+      Home
+    </a>
+  </Link>
+  <Link
+    href="/about"
+  >
+    <a
+      style={
+        Object {
+          "marginRight": 15,
+        }
+      }
+    >
+      About
+    </a>
+  </Link>
+</div>
+`;

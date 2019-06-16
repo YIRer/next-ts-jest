@@ -8,5 +8,6 @@ describe('Header', () => {
   it('renders the h1 title', () => {
     const header = shallow(<Header />);
     expect(header.find('a'));
+    expect(header).toMatchSnapshot();
   });
 });
